@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Tenor Trombone",
+        "price": "600",
+        "currency": "USD",
+        "currencySymbol": "$",
+        "features": [
+            "Lorem Ipsum",
+            "Lorem Ipsum",
+            "Lorem Ipsum"
+        ],
+        "ctaText": "Select"
+    },
+    {
+        "title": "Bass Trombone",
+        "price": "900",
+        "currency": "USD",
+        "currencySymbol": "$",
+        "features": [
+            "Lorem Ipsum",
+            "Lorem Ipsum",
+            "Lorem Ipsum"
+        ],
+        "ctaText": "Select"
+    },
+    {
+        "title": "Valve Trombone",
+        "price": "1200",
+        "currency": "USD",
+        "currencySymbol": "$",
+        "features": [
+            "Lorem Ipsum",
+            "Lorem Ipsum",
+            "Lorem Ipsum"
+        ],
+        "ctaText": "Select"
+    }
+]

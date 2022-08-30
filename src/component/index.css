@@ -1,0 +1,52 @@
+body {
+    background-color: #eeeeee;
+}
+.row-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header {
+    margin: 20px 50px;
+}
+.header-image{
+    text-align: left;
+    flex:1
+}
+.header-image img {
+    width: 45%;
+}
+.list-header {
+    flex: 1;
+}
+ul {
+    list-style-type: none;
+}
+li {
+    display: inline-block;
+}
+li a {
+    text-decoration: none;
+    margin-right: 70px;
+    color: black;
+}
+
+.sub-header h1 {
+    font-size: 23px;
+}
+input[type=text] {
+    width: 25%;
+    height: 15px;
+    padding: 5px;
+    margin-top: 10px;
+}
+input[type=button] {
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    background-color: #f1c40f;
+    color: black;
+    margin-top: 20px;
+    padding: 8px 20px;
+    cursor: pointer;
+}

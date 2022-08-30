@@ -1,23 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import HeaderComponent from './component/header';
+import OurWork from './section/our-work';
+import DynamicVideo from './section/video';
+import Payment from './section/payment';
+
+const details = [{
+  imgUrl : './favicon.ico',
+  heading : 'Premium Materials',
+  explain : 'Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.'
+}]
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <HeaderComponent />
+      <OurWork fly={details}/>
+      <DynamicVideo url='./movie.mp4' />
+      <Payment />
     </div>
   );
 }
