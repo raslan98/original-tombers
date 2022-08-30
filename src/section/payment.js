@@ -13,7 +13,7 @@ function Payment() {
         <div className="row">
             <div className="card">
                 <div className="card-content">
-                    <h2>{details}</h2>
+                    <h2>Bass Trombone</h2>
                     <h3>$600</h3>
                     <ol>
                         <li>Lorem ipsum.</li>
@@ -26,7 +26,7 @@ function Payment() {
             </div>
             <div className="card">
                 <div className="card-content">
-                    <h2>{details.indexOf(7)}</h2>
+                    <h2>Bass Trombone</h2>
                     <h3>$900</h3>
                     <ol>
                         <li>Lorem ipsum.</li>
